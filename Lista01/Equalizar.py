@@ -1,7 +1,6 @@
 import cv2
 import histograma as hst
 import numpy as np
-#matr.cumsum()
 
 def equalizeH(img):
     nImg = np.array(img).copy()
